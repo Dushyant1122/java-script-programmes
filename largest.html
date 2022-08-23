@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest Number</title>
+</head>
+<body>
+    <script>
+    var a = parseInt(prompt("Enter First Number"));
+    var b = parseInt(prompt("Enter Second Number"));
+    var c = parseInt(prompt("Enter Third Number"));
+    var d;
+    if(a >= b && a >= c){
+        d = a; 
+    }else if(b >= a && b >= c){
+        d = b;
+    }else{
+        d = c;
+}
+    document.write("Largest Number Is : " + d)
+    </script>
+</body>
+</html>
