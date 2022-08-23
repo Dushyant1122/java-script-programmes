@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+    <script>
+    let a = parseInt(prompt("Enter a positive integer: "));
+
+    if (a < 0) {
+        document.write("Error! Factorial for negative number does not exist.");
+    }else if (a === 0) {
+        document.write("The factorial of " + a + " is 1.");
+    }else {
+        let b = 1;
+        for (c = 1; c <= a; c++) {
+            b *= c;
+    }
+    document.write("The factorial of " + a + "is" + b);
+    }
+    </script>
+</body>
+</html>
