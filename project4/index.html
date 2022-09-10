@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <div class="message">
+      <p>
+        <h3 style="text-align: center;font-weight: bold;">Pass the Message</h3>
+        <p style="border-bottom: 2px solid rgba(128, 128, 128, 0.445);">
+        </p>
+      </p>
+
+      <p>
+        <label for="message-input">Enter a Message</label>
+        <br>
+        <button style="border-radius: 7px 0 0 7px;">
+          <i class="far fa-envelope"></i>
+        </button>
+        <input id="message-input" type="text">
+      </p>
+
+      <p>
+        <button onclick="getMessage()">Submit</button>
+      </p>
+      <p id="message-output" style="text-align: center; text-transform: uppercase;">Jai Shree Ram
+      </p>
+    </div>
+  </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
